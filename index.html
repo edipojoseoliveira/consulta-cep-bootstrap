@@ -11,27 +11,33 @@
         <title>Consulta de CEP</title>
     </head>
     <body>
-
         <div class="container">
             <h1>Consulta de CEP</h1>
-    
+
             <form>
                 <div class="form-row">
-                    <div class="col-md-3 mb-3">
-                        <label for="validationDefault05">CEP</label>
-                        <input type="text" class="form-control" id="validationDefault05" placeholder="CEP" required>
+                    <div class="form-group col-4">
+                        <label for="inCep">CEP:</label>
+                        <input type="text" class="form-control" id="inCep" placeholder="CEP">
                     </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="validationDefault03">Cidade</label>
-                        <input type="text" class="form-control" id="validationDefault03" placeholder="Cidade" required>
+                    <div class="form-group col-8">
+                        <label for="inRua">Rua:</label>
+                        <input type="text" class="form-control" id="inRua" placeholder="Rua">
                     </div>
-                    <div class="col-md-3 mb-3">
-                        <label for="validationDefault04">Estado</label>
-                        <input type="text" class="form-control" id="validationDefault04" placeholder="Estado" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col">
+                        <label for="inBairro">Bairro:</label>
+                        <input type="text" class="form-control" id="inBairro" placeholder="Bairro">
+                    </div>
+                    <div class="form-group col">
+                        <label for="inCidade">Cidade:</label>
+                        <input type="text" class="form-control" id="inCidade" placeholder="Cidade">
                     </div>
                 </div>
             </form>
         </div>
+
 
         <!-- JavaScript (Opcional) -->
         <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
